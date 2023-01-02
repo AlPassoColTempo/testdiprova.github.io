@@ -1,0 +1,177 @@
+.box-outlet {
+    background-image: linear-gradient(to bottom right, purple, yellow);
+    width: 100%;
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+.h1-outlet {
+    color: blanchedalmond;
+    font-size: 35px;
+}
+.h2-outlet {
+    color: yellowgreen;
+}
+.link {
+    text-decoration: none;
+}
+.h2-outlet:hover {
+    transform: scale(1.5, 2.5);
+    color: aqua;
+    transition: 2.5s;
+}
+.box-woman {
+    border: 1px solid yellow;
+    float: left;
+    width: 33%;
+    height: 40%;
+    box-sizing: border-box;
+}
+.box-baby {
+    border: 1px solid yellow;
+    width: 33%;
+    height: 40%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.box-men {
+    border: 1px solid yellow;
+    width: 33%;
+    height: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 43%;
+    text-align: center;
+}
+img:hover {
+    opacity: 0.5;
+    border-radius: 4%;
+}
+h1 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+@media screen and (max-width: 550px) {
+    .box-woman {
+        border: 1px solid yellow;
+        float: left;
+        width: 100%;
+        height: 40%;
+        box-sizing: border-box;
+    }
+    .box-baby {
+        border: 1px solid yellow;
+        width: 100%;
+        height: 40%;
+        float: left;
+        box-sizing: border-box;
+        margin-left: 10px;
+    }
+    .box-men {
+        border: 1px solid yellow;
+        width: 100%;
+        height: 40%;
+        float: right;
+        box-sizing: border-box;
+    }
+}
+.tableman {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divman {
+    text-align: center;
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    margin-left: 7%;
+    font-family: 'Indie Flower', cursive;
+    background-image: linear-gradient(to bottom right, blue, yellow);
+
+}
+.shoes {
+    width: 220px;
+    height: 220px;
+    padding-top: 10%;
+}
+.shoenames {
+    background-color: blue;
+    font-size: large;
+    color: burlywood;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width: 550px) {
+    .divman {
+        text-align: center;
+        border: 2px solid black;
+        float: left;
+        width: 50%;
+        margin-left: 7%;
+    }
+    .tableman {
+        display: none;
+    } 
+}
+.price {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.div-form {
+    width: 50%;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1-form {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.exp {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+@media (max-width: 600px) {
+    .div-form {
+        width: 100%;
+    }
+    .exp {
+        display: none;
+    }
+}
+.bodyform {
+    background: linear-gradient(-45deg, purple, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.headers {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
